@@ -21,7 +21,9 @@
   "content_scripts": [
     {
       "matches": ["*://*.baidu.com/*"],
-      "js": ["contentScript.js"]
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
     }
-  ]
+  ],
+  "web_accessible_resources": ["inject.js"]
 }

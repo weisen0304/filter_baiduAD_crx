@@ -13,7 +13,8 @@ const config = {
     background: './background.js',
     'popup/popup': './popup/popup.js',
     'options/options': './options/options.js',
-    'contentScript': './contentScript.js'
+    'contentScript': './contentScript.js',
+    'inject': './inject.js'
   },
   output: {
     path: __dirname + '/dist',
